@@ -158,7 +158,7 @@
             "name": "Update User",
             "data": [
                 {
-                    "endpoint": "/updateuser/8341",
+                    "endpoint": "/updateuser/8344",
                     "user_first_name": "kiru",
                     "user_last_name": "muthu",
                     "user_contact_number": 4129967890,
@@ -171,7 +171,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8341",
+                    "endpoint": "/updateuser/8344",
                     "user_first_name": "kiru",
                     "user_last_name": "muthu",
                     "user_contact_number": 4129967890,
@@ -184,7 +184,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8341",
+                    "endpoint": "/updateuser/8344",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4129967890,
@@ -197,7 +197,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8341",
+                    "endpoint": "/updateuser/8344",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4120067890,
@@ -210,7 +210,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8341",
+                    "endpoint": "/updateuser/8344",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4120067890,
@@ -223,7 +223,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8341",
+                    "endpoint": "/updateuser/8344",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4120067890,
@@ -236,7 +236,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8341",
+                    "endpoint": "/updateuser/8344",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4120067890,
@@ -249,7 +249,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8341",
+                    "endpoint": "/updateuser/8344",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4120067890,
@@ -268,7 +268,7 @@
             "name": "User By Id",
             "data": [
                 {
-                    "endpoint": "/user/8341",
+                    "endpoint": "/user/8344",
                     "statuscode": 200
                 },
                 {
@@ -310,7 +310,7 @@
             "name": "delUser By Id",
             "data": [
                 {
-                    "endpoint": "/deleteuser/8341",
+                    "endpoint": "/deleteuser/8344",
                     "statuscode": 200,
                     "message":"User is deleted successfully"
                 },
