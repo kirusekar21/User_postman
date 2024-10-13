@@ -25,8 +25,8 @@
                     "endpoint": "/createusers",
                     "user_first_name": "kiru",
                     "user_last_name": "meena",
-                    "user_contact_number": 8021987890,
-                    "user_email_id": "team05inika@gmail.com",
+                    "user_contact_number": 8012987890,
+                    "user_email_id": "team05inikam@gmail.com",
                     "plotNumber": "pl-81",
                     "street": "Avenue",
                     "state": "GA",
@@ -64,7 +64,7 @@
                     "endpoint": "/createusers",
                     "user_first_name": "kiru",
                     "user_last_name": "muthu",
-                    "user_contact_number": 8021987890,
+                    "user_contact_number": 8012987890,
                     "user_email_id": "team05kiru@gmail.com",
                     "plotNumber": "pl-11",
                     "street": "Avenue",
@@ -78,7 +78,7 @@
                     "user_first_name": "kiru",
                     "user_last_name": "muthu",
                     "user_contact_number": 4199967890,
-                    "user_email_id": "team05inika@gmail.com",
+                    "user_email_id": "team05inikam@gmail.com",
                     "plotNumber": "pl-11",
                     "street": "Avenue",
                     "state": "GA",
@@ -97,7 +97,7 @@
                     "state": "GA",
                     "country": "USA",
                     "zipCode": 30055,
-                    "statuscode": 409
+                    "statuscode": 400
                 },
                 {
                     "endpoint": "/createusers",
@@ -110,7 +110,7 @@
                     "state": "GA",
                     "country": "USA",
                     "zipCode": 30055,
-                    "statuscode": 409
+                    "statuscode": 400
                 },
                 {
                     "endpoint": "/createusers",
@@ -123,7 +123,7 @@
                     "state": "GA",
                     "country": "USA",
                     "zipCode": 30055,
-                    "statuscode": 409
+                    "statuscode": 400
                 },
                 {
                     "endpoint": "/createusers",
@@ -136,7 +136,7 @@
                     "state": "GA",
                     "country": "USA",
                     "zipCode": 30055,
-                    "statuscode": 409
+                    "statuscode": 400
                 },
                 {
                     "endpoint": "/createusers",
@@ -149,7 +149,7 @@
                     "state": null,
                     "country": null,
                     "zipCode": null,
-                    "statuscode": 404
+                    "statuscode": 400
                 }
                
             ]
@@ -158,7 +158,7 @@
             "name": "Update User",
             "data": [
                 {
-                    "endpoint": "/updateuser/8344",
+                    "endpoint": "/updateuser/{{user_id}}",
                     "user_first_name": "kiru",
                     "user_last_name": "muthu",
                     "user_contact_number": 4129967890,
@@ -171,7 +171,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8344",
+                    "endpoint": "/updateuser/{{user_id}}",
                     "user_first_name": "kiru",
                     "user_last_name": "muthu",
                     "user_contact_number": 4129967890,
@@ -184,7 +184,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8344",
+                    "endpoint": "/updateuser/{{user_id}}",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4129967890,
@@ -197,7 +197,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8344",
+                    "endpoint": "/updateuser/{{user_id}}",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4120067890,
@@ -210,7 +210,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8344",
+                    "endpoint": "/updateuser/{{user_id}}",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4120067890,
@@ -223,7 +223,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8344",
+                    "endpoint": "/updateuser/{{user_id}}",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4120067890,
@@ -236,7 +236,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8344",
+                    "endpoint": "/updateuser/{{user_id}}",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4120067890,
@@ -249,7 +249,7 @@
                     "statuscode": 200
                 },
                 {
-                    "endpoint": "/updateuser/8344",
+                    "endpoint": "/updateuser/{{user_id}}",
                     "user_first_name": "kiru",
                     "user_last_name": "sek",
                     "user_contact_number": 4120067890,
@@ -268,7 +268,7 @@
             "name": "User By Id",
             "data": [
                 {
-                    "endpoint": "/user/8344",
+                    "endpoint": "/user/{{user_id}}",
                     "statuscode": 200
                 },
                 {
@@ -310,7 +310,7 @@
             "name": "delUser By Id",
             "data": [
                 {
-                    "endpoint": "/deleteuser/8344",
+                    "endpoint": "/deleteuser/{{user_id}}",
                     "statuscode": 200,
                     "message":"User is deleted successfully"
                 },
